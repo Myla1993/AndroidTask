@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_price">
+
+    <fragment
+        android:id="@+id/navigation_price"
+        android:name="com.example.price.PriceFragment"
+        android:label="@string/title_price"
+        tools:layout="@layout/fragment_price" />
+
+    <fragment
+        android:id="@+id/navigation_favorities"
+        android:name="com.example.price.FavoritesFragment"
+        android:label="@string/title_favorities"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/navigation_portfolio"
+        android:name="com.example.price.PortfolioFragment"
+        android:label="@string/title_portfolio"
+        tools:layout="@layout/fragment_portfolio" />
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.example.price.NewsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/navigation_invest"
+        android:name="com.example.price.InvestsFragment"
+        android:label="@string/title_invest"
+        tools:layout="@layout/fragment_invests" />
+</navigation>

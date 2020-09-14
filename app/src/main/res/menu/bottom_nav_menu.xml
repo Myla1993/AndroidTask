@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_price"
+        android:icon="@drawable/price"
+        android:title="@string/title_price" />
+
+    <item
+        android:id="@+id/navigation_favorities"
+        android:icon="@drawable/favorites"
+        android:title="@string/title_favorities" />
+
+    <item
+        android:id="@+id/navigation_portfolio"
+        android:icon="@drawable/portfolio"
+        android:title="@string/title_portfolio" />
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/news"
+        android:title="@string/title_news" />
+    <item
+        android:id="@+id/navigation_invest"
+        android:icon="@drawable/invest"
+        android:title="@string/title_invest" />
+
+</menu>
